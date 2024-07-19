@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Hotel Booking Form</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        /* CSS Reset */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background-color: #509cf9;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="mobile number"],
+        input[type="email"],
+        textarea,
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #3a0404;
+            border-radius: 4px;
+        }
+        
+        textarea {
+            resize: vertical;
+        }
+        
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #e89696;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+    <div class="container">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name :</label>
+                <input type="text" id="name" placeholder="Enter Your Name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile number">Mobile Number :</label>
+                <input type="mobile number" id="mobile number" placeholder="Enter Your Mobile Number" name=" mobile number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" placeholder="Enter Your Email" name="email" required>
+            </div>
+            <div class="form-group">
+
+                <label for="check-in">Check-in Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+            </div>
+            <div class="form-group">
+                <label for="check-out">Check-out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1
+required>
+</div>
+<div class=" form-group ">
+<label for="comments ">Additional Comments:</label>
+<textarea id="comments "  name="comments "
+rows="4 "></textarea>
+</div>
+<div class="form-group ">
+<button type="submit ">Book Now</button>
+</div>
+</form>
+</div>
+<footer>
+
+<p>&copy; 2023 Tourism Hotel Booking. All rights reserved.</p>
+</footer>
+</body>
+</html>
